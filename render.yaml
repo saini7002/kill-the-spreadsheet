@@ -4,7 +4,7 @@
 # 3. Set the GEMINI_API_KEY environment variable in the Render dashboard (never commit it).
 services:
   - type: web
-    name: kill-the-quote
+    name: kill-the-spreadsheet
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
